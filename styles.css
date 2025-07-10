@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(244, 251, 255);
     max-width: 1440px;
@@ -19,7 +20,7 @@ header{
 }
 .logo{
     font-size: 36px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 button{
     background-color: #4E47FF;
@@ -28,6 +29,11 @@ button{
     font-size: 16px;
     border-radius: 10px;
     border:none ;
+}
+button:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
+    
 }
 .banner-section{
     padding: 158px 267px 237px 267px;
@@ -139,9 +145,11 @@ button{
 }
 .user-flex h3{
     margin-bottom: 5px;
+    color: rgba(117, 117, 117, 1);
 }
 .user-flex h4{
     margin-top: 0px;
+    color:rgba(179, 179, 179, 1)
 }
 
 /* focus-better */
@@ -201,4 +209,28 @@ button{
 
 ::placeholder {
     padding: 32px;
+}
+
+/* footer styles */
+.footer-background {
+    text-align: center;
+    background-color: rgba(255, 171, 171, 0.1);
+    padding: 104px 455px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.footer-backgroun h1 {
+    font-size: 100px;
+    font-weight: black;
+}
+a {
+    text-decoration: none;
+    color: #8987A1;
+}
+.i{
+    display: flex;
+    gap: 5px;
 }
