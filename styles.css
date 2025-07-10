@@ -1,5 +1,7 @@
 body{
     background-color: rgb(244, 251, 255);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 header{
     background-image: url('./Assets/Hero-bg.png');
@@ -41,7 +43,7 @@ button{
     justify-content: center;
     justify-items: center;
     gap: 220px;
-    padding: 116px 150px;
+    padding: 116px 50px;
 }
 .action-text h1{
     font-size: 42px;
@@ -59,8 +61,8 @@ button{
 /* user styles */
 .user-section{
     text-align: center;
-    max-width: 1140px;
-    height: 306px;
+    width: 1140px;
+    margin: 0 150px;
     margin: 0 auto;
     padding: 85px 142px;
     background-color:rgba(78, 71, 255, 0.1);
@@ -71,6 +73,7 @@ button{
     justify-content: space-between;
     justify-content: center;
     gap: 158px;
+    max-width: 1140px;
 }
 .user h1 {
     font-size: 80px;
@@ -81,5 +84,46 @@ button{
 .user-text h4 {
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
+    margin-top: 0px;
+}
+
+/* user-review */
+.user-says{
+    margin-top: 137px;
+    
+    
+}
+.user-says h1{
+    text-align: center;
+    font-size: 42px;
+}
+.user-review{
+    display: flex;
+    justify-content: center;
+    margin: 0px 150px;
+    
+    gap: 20px;
+    
+}
+
+.user-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.user-design{
+    background-color:rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+}
+.user-design img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.user-flex h3{
+    margin-bottom: 5px;
+}
+.user-flex h4{
     margin-top: 0px;
 }
