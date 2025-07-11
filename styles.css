@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(244, 251, 255);
+    background-color: #f5f8ff;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -20,7 +20,8 @@ header{
 }
 .logo{
     font-size: 36px;
-    font-weight: bolder;
+    font-weight:bold;
+    color: #4E47FF;
 }
 button{
     background-color: #4E47FF;
@@ -51,7 +52,7 @@ button:hover {
     justify-items: center;
     gap: 220px;
     padding: 116px 150px;
-    max-width: 1140px;
+    
 }
 .action-text h1{
     font-size: 42px;
@@ -68,13 +69,9 @@ button:hover {
 
 /* user styles */
 
-.user-section h3 {
-    align-items: center;
-    font-size: 50px;
-}
+
 .user-section{
     text-align: center;
-    max-width: 1140px;
     margin: 116px 150px;
     padding: 50px 142px;
     background-color:rgba(78, 71, 255, 0.1);
@@ -85,6 +82,8 @@ button:hover {
     color: rgba(37, 36, 50, 1);
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
 }
 .user{
     display: flex;
@@ -108,6 +107,7 @@ button:hover {
     margin-top: 0px;
 }
 
+
 /* user-review */
 .user-says{
     margin-top: 137px;
@@ -129,12 +129,12 @@ button:hover {
 
 .user-flex{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
     gap: 20px;
 }
 .user-design{
     background-color:rgba(255, 255, 255, 0.5);
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2); */
     padding: 24px;
     border-radius: 14px;
 }
@@ -151,13 +151,17 @@ button:hover {
     margin-top: 0px;
     color:rgba(179, 179, 179, 1)
 }
+.user-flex img {
+    height: 40px;
+    width: 40px;
+}
 
 /* focus-better */
 .focus-better{
 
     text-align: center;
     background-color:rgba(255, 255, 255, 0.5);
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2); */
     padding: 71px 150px ;
     margin:137px 150px ;
     /* max-width: 1140px; */
@@ -214,8 +218,9 @@ button:hover {
 /* footer styles */
 .footer-background {
     text-align: center;
-    background-color: rgba(255, 171, 171, 0.1);
+    background-color: #ffffff;
     padding: 104px 455px;
+   
 }
 .footer-icon{
     display: flex;
@@ -229,8 +234,19 @@ button:hover {
 a {
     text-decoration: none;
     color: #8987A1;
+    
 }
+
 .i{
     display: flex;
     gap: 5px;
+    height: 20;
+    width: 20;
+}
+.i img {
+    height: 20px;
+    width: 20px;
+}
+span{
+    color: rgb(115, 147, 0);
 }
